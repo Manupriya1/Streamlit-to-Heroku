@@ -1,2 +1,1 @@
-web: python stl.py
-worker: python stl.py 
+web: sh setup.sh && streamlit run app.py
