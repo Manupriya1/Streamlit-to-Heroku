@@ -1,2 +1,2 @@
-web: sh setup.sh && streamlit run stl.py
-web: gunicorn app.wsgi
+web: python stl.py
+worker: python stl.py 
